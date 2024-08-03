@@ -127,3 +127,75 @@ export default {
 </template>
 
 
+<style scoped lang="scss">
+.section-banner {
+    width: 100%;
+
+    .banner {
+        width: 100%;
+        height: 300px;
+        background-image: url('../assets/img/jumbotron.jpg');
+        object-fit: contain;
+    }
+}
+
+
+.section-black {
+    width: 100%;
+    min-height: 120px;
+    background-color: #1C1C1C;
+
+    .comics-container {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        justify-content: center;
+
+        .btn-up {
+            width: 100%;
+            position: relative;
+            top: -30px;
+            left: 0;
+            right: 0;
+
+            button {
+                padding: 15px 30px;
+                border: 1px solid white;
+                background-color: #0382F9;
+                color: white;
+                font-size: 20px;
+                cursor: pointer;
+
+            }
+        }
+
+
+        .btn-down button {
+            padding: 10px 40px;
+            border: 1px solid white;
+            background-color: #0382F9;
+            color: white;
+            font-size: 10px;
+            cursor: pointer;
+            width: 100%;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+
+    }
+
+
+    .comic-card {
+        flex-basis: 13%;
+    }
+}
+
+
+.section-blu {
+    width: 100%;
+    min-height: 140px;
+    background-color: #0382F9;
+
+}
+</style>
