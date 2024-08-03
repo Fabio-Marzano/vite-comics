@@ -39,3 +39,39 @@ export default {
 </template>
 
 
+<style lang="scss">
+img {
+    max-width: 100%;
+    height: 75px;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.25rem 0;
+
+    .nav-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        padding: 0;
+
+        li {
+            list-style: none;
+
+            a {
+                display: inline-block;
+                text-decoration: none;
+                color: #524647;
+                text-transform: uppercase;
+                margin: 0 0.75rem;
+
+
+            }
+        }
+    }
+}
+</style>
